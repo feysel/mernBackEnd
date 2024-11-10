@@ -1,5 +1,5 @@
-const mysql = require("mysql2/promise");
-require("dotenv").config();//to be defined the env envirometal variable
+const mysql = require("mysql2");
+require("dotenv").config(); //to be defined the env envirometal variable
 
 // Create connection pool
 const dbConnection = mysql.createPool({
