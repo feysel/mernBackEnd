@@ -22,7 +22,7 @@
     "jsonwebtoken": "^9.0.2",
     "jwt-decode": "^4.0.0",
     "morgan": "^1.10.0",
-    "mysql2/promise": "https://github.com/feysel/repository.git",
+    "mysql2/promise": "https://github.com/feysel/mernBackEnd.git",
     "netlify-cli": "^12.7.2",
     "serverless-http": "^3.2.0"
   },
