@@ -1,11 +1,12 @@
 {
-  "name": "back_end_netly",
+  "name": "mernbackend",
   "version": "1.0.0",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "api.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "netlify deploy --prod"
+    "build": "echo 'No build step required for backend' && exit 0",
+    "start": "node server.js"
   },
   "author": "Feysel M.",
   "license": "ISC",
@@ -21,7 +22,7 @@
     "jsonwebtoken": "^9.0.2",
     "jwt-decode": "^4.0.0",
     "morgan": "^1.10.0",
-    "mysql2": "^3.11.3",
+    "mysql2/promise": "https://github.com/feysel/repository.git",
     "netlify-cli": "^12.7.2",
     "serverless-http": "^3.2.0"
   },
