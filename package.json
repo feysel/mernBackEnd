@@ -11,7 +11,7 @@
   "author": "Feysel M.",
   "license": "ISC",
   "dependencies": {
-    "@vercel/node": "^3.2.24",
+    "@vercel/node": "^2.10.3",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
@@ -23,7 +23,7 @@
     "jwt-decode": "^4.0.0",
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
-    "netlify-cli": "^12.7.2",
+    "netlify-cli": "^17.37.2",
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
@@ -33,6 +33,5 @@
     "@types/express": "^5.0.0",
     "@types/jsonwebtoken": "^9.0.7",
     "@types/morgan": "^1.9.9"
-   
   }
 }
