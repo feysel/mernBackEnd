@@ -13,7 +13,7 @@ const errorHandler = require("./errorHandler");
 require("dotenv").config();
 const serverless = require("serverless-http"); // Add this
 // Validate environment variables
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3306;
 if (!process.env.ALLOWED_ORIGINS) {
   console.error(
     "Error: ALLOWED_ORIGINS is not defined in the environment variables"
@@ -32,7 +32,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // CORS setup
-const allowedOrigins = process.env.ALLOWED_ORIGINS.split(",");
+const allowedOrigins = "*";
 const corsOptions = {
   origin: (origin, callback) => {
     if (allowedOrigins.includes(origin) || !origin) {
