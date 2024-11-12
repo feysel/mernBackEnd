@@ -30,6 +30,7 @@
     "jsonwebtoken": "^9.0.2",
     "jwt-decode": "^4.0.0",
     "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
