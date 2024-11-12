@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { StatusCodes } = require("http-status-codes");
 const dbConnection = require("../../Database/dbconfig");
 const generateToken = require("../../tokens/generateToken");
